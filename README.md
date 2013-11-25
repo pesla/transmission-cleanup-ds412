@@ -1,4 +1,4 @@
-# transmission-cleanup-ds412-
+# transmission-cleanup-ds412
 
 Automatically remove completed torrents from transmission using transmission-remote and cron.
 
