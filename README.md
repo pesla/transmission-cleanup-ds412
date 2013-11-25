@@ -12,14 +12,9 @@ The script filters finished torrents from the list and removes any matching torr
 ## How to install
 
 1. Place the script somewhere on your NAS. For example: `/usr/local/scripts/transmission-cleanup.sh`
-2. Edit the config within the script.
-
-```
-USER=transmission-username
-PASS=transmission-password
-```
-
-Finally, setup a cron job, eg.:
+2. Edit the `USER` and `PASS` variable within the script.
+3. Check if the location to the `transmission-remote` is correct.
+4. Setup a cron job to run the script periodically. For example:
 
 ```
 vi /etc/crontab
